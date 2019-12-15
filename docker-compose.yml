@@ -3,7 +3,7 @@ services:
   data-science:
     build: 
       context: ./docker
-    image: shivangi/scRNA
+    image: shivangi/scrna
     ports:
       - "8888:8888"
     volumes:

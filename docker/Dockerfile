@@ -5,6 +5,7 @@ RUN pip install --upgrade pip \
     && pip install folium \
     && pip install --upgrade seaborn \
     && pip install geopandas \
-    && pip install tensorflow
+    && pip install tensorflow \
+    && pip install umap-learn
 
 WORKDIR '/home/jovyan/work/code/'
